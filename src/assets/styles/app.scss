@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$purple: #7437FF;
+$purple-light: #9D69EA;
+$dark: #22262A;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: $dark;
+  color: white;
+}
+
+.text-brand {
+  color: #9D69EA;
+}

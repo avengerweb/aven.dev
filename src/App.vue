@@ -1,30 +1,26 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="drop-shadow w-full bg-purple-500 bg-opacity-10">
+    <div class="container mx-auto flex w-full">
+      <router-link to="/"
+                   class="py-3 px-4 hover:bg-purple-700 bg-opacity-5 rounded transition-colors duration-300">
+        Aven.Dev
+      </router-link>
+      <router-link to="/services"
+                   class="py-3 px-4 hover:bg-purple-700 bg-opacity-5 rounded transition-colors duration-300">
+        Services
+      </router-link>
+
+      <div class="ml-auto flex items-center px-4">
+        <profile-links/>
+      </div>
+    </div>
   </div>
   <router-view/>
 </template>
+<script lang="ts">
+import ProfileLinks from "./components/ProfileLinks.vue";
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+export default {
+  components: {ProfileLinks}
 }
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
+</script>
