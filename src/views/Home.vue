@@ -4,7 +4,7 @@
       <h1 class="text-3xl font-bold">Software Engineer</h1>
       <div class="text-2xl">
         Turn people's ideas into a product that customers will <span
-        class="bg-purple-800 rounded-sm">love</span>, using future tools and big-picture vision.
+        class="bg-purple-800 rounded-sm">love</span> using future tools and big-picture vision.
       </div>
     </div>
     <div class="md:w-1/2 flex items-center justify-center">
