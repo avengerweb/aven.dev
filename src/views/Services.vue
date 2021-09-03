@@ -1,6 +1,6 @@
 <template>
   <div class="container m-auto py-4">
-    <h1 class="text-center text-3xl mb-4">What I can do for you?</h1>
+    <h1 class="text-center text-3xl mb-4">What can I do for you?</h1>
     <div class="grid grid-cols-2 gap-2">
       <div
         class="bg-gray-500 bg-opacity-5 p-4 rounded hover:bg-opacity-10 transition-colors duration-300 shadow">
@@ -8,9 +8,9 @@
         <div>
           <ul>
             <li>Develop website from scratch or using CMS</li>
-            <li>Maintenance of exists website</li>
+            <li>Maintenance of existing website</li>
             <li>Audit - performance, security</li>
-            <li>Integrating payment and other 3-rd services</li>
+            <li>Integrating payment and other 3-rd party services</li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,7 @@
           <li>API for your mobile\desktop app or website</li>
           <li>Scaling exists application</li>
           <li>Real-time applications, like chats</li>
-          <li>Or just fix your small script that sends emails</li>
+          <li>Or fix your small script that sends emails</li>
         </ul>
       </div>
     </div>
@@ -58,10 +58,10 @@
     <div
       class="bg-gray-500 bg-opacity-5 my-2 p-4 rounded hover:bg-opacity-10 transition-colors duration-300 shadow">
       <h2 class="text-xl mb-2"><span class="font-bold text-brand">D</span>evelopment Process</h2>
-      You will have access to project task tracker and source code repository during whole
-      development process. That mean you can check project progress at any time. For most project we will
-      use agile like methodology - I will work by small iterations, so after each iteration we will able to talk
-      about project vision and maybe change some requirements.
+      You will have access to the project task tracker and source code repository during the whole
+      development process. That means you can check project progress at any time. For most projects,
+      we will use agile-like methodology - I will work in small iterations, so after each iteration,
+      we will be able to talk about project vision and maybe change some requirements.
     </div>
     <div class="grid grid-cols-2 gap-2">
       <div
@@ -71,7 +71,7 @@
           <div class="flex-1">
             Every solution that I provide is professional and cost-effective, but we all are humans.
             <br>
-            After project was done, you will have up to 10% of project time included as free support
+            After project is done, you will have up to 10% of project time included as free support
             for next month.
             <ul class="mt-1">
               <li>- Answer any question</li>
@@ -81,7 +81,7 @@
             You can extend support time during development time or after release.
           </div>
           <div>
-            Do you have any question? <a class="text-brand" href="mailto:vshchepotev@gmail.com">vshchepotev@gmail.com</a>
+            Do you have any questions? <a class="text-brand" href="mailto:vshchepotev@gmail.com">vshchepotev@gmail.com</a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
         <h2 class="text-xl mb-2"><span class="font-bold text-brand">P</span>ayment</h2>
         <div>
           I accept payments through Stripe invoices, so it will be easy to track any expenses for
-          you and for me.
+          you and me.
           <ul class="my-1">
             <li>- Hourly or bi-weekly payment schedule</li>
             <li>- Or by project milestones</li>
@@ -98,21 +98,21 @@
           Full or partial refunds conditions
           <ul class="my-1">
             <li>- missed deadline</li>
-            <li>- pure quality</li>
-            <li>- project was cancelled by me for some reason</li>
-            <li>- we can agree on some other condition</li>
+            <li>- poor quality</li>
+            <li>- I canceled a project for some reason</li>
+            <li>- failure in fulfilling your requirements</li>
           </ul>
         </div>
       </div>
     </div>
 
 
-    <h2 class="text-center text-3xl mt-3">My tech stack</h2>
-    <div class="text-center text-sm mb-2">List of tools I love to use and use everyday, but not
+    <h2 class="text-center text-3xl mt-5">My tech stack</h2>
+    <div class="text-center text-sm mb-6">List of tools I love to use and use everyday, but not
       everything that I familiar with.
     </div>
-    <h3 class="text-2xl text-center mb-2">Programming Languages:</h3>
-    <div class="flex flex-wrap gap-2 justify-center">
+    <h3 class="text-2xl text-center mb-2">Programming Languages</h3>
+    <div class="flex flex-wrap gap-3 justify-center">
       <div class="h-20 w-20">
         <svg viewBox="0 0 128 128">
           <defs>
@@ -283,7 +283,7 @@
       </div>
     </div>
     <h3 class="text-center my-3 text-2xl">Frameworks</h3>
-    <div class="flex flex-wrap gap-2 justify-center">
+    <div class="flex flex-wrap gap-3 justify-center">
       <div class="h-20 w-20">
         <svg viewBox="0 0 128 128">
           <g id="spring-original-wordmark-surface1" fill="#5FB832">
@@ -348,7 +348,7 @@
       </div>
     </div>
     <h3 class="text-center my-3 text-2xl">Databases</h3>
-    <div class="flex flex-wrap gap-2 justify-center">
+    <div class="flex flex-wrap gap-3 justify-center">
       <div class="h-20 w-20">
         <svg viewBox="0 0 128 128">
           <path fill="#00618A"
@@ -378,7 +378,7 @@
       </div>
     </div>
     <h3 class="text-center my-3 text-2xl">General</h3>
-    <div class="flex flex-wrap gap-2 justify-center">
+    <div class="flex flex-wrap gap-3 justify-center">
       <div class="h-20 w-20">
         <svg viewBox="0 0 128 128">
           <path fill="#F34F29"
